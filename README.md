@@ -15,6 +15,9 @@ This project sets up real-time monitoring for a Dockerized Flask application usi
 ---
 
 ## 📁 Project Structure
+
+```bash
+
 prometheus-grafana-monitoring/
 ├── app/                #app files
 │   ├── app.py
