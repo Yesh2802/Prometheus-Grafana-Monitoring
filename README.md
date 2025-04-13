@@ -16,19 +16,19 @@ This project sets up real-time monitoring for a Dockerized Flask application usi
 
 ## 📁 Project Structure
 prometheus-grafana-monitoring/
-├── app/
+├── app/                #app files
 │   ├── app.py
 │   ├── exporter.py
 │   └── Dockerfile
-├── prometheus/
+├── prometheus/         #Prometheus files
 │   └── prometheus.yml
-├── grafana/
+├── grafana/            #Grafana files
 │   └── provisioning/
 │       ├── datasources/
 │       │   └── datasource.yml
 │       └── dashboards/
 │           ├── dashboard.yml
 │           └── custom-dashboard.json
-├── docker-compose.yml
+├── docker-compose.yml  #Docker files
 ├── .env
 └── README.md
